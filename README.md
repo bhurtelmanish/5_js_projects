@@ -1,4 +1,4 @@
-Note: These projects aren't responsive at all
+Note: These projects aren't responsive at all. This is a JavaScript-based project site so I focused on the JS part more than CSS responsiveness.😉
 
 <h1>1) OTP Verification with auto focus</h1>
 <h1>2) CRUD TODO app</h1>
