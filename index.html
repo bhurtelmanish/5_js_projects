@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All projects using html, css and js</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo-container">
+            <img src="./logo2.png" alt="BH projects logo" class="logo">
+            <span class="logo-title">JS Projects</span>
+        </div>
+
+        <ul class="links-container">
+            <a href="#project-1"><li class="link">Project 1</li></a>
+            <a href="#project-2"><li class="link">Project 2</li></a>
+            <a href="#project-3"><li class="link">Project 3</li></a>
+            <a href="#project-4"><li class="link">Project 4</li></a>
+            <a href="#project-5"><li class="link">Project 5</li></a>
+        </ul>
+    </div>
+
+
+
+
+    <div id="project-1" class="hero-section">
+        <div class="content-container">
+            <span class="hero-project-number">Project 1 > </span>
+            <h1 class="hero-project-title">OTP VERIFICATION APP</h1>
+        </div>
+
+        <div class="otp-container">
+            <div class="otp-form">
+                <h1>Verify OTP</h1>
+                <div class="otp-input-container">
+                    <input type="text" class="otp-input" minlength="1" maxlength="1" required>
+                    <input type="text" class="otp-input" minlength="1" maxlength="1" required>
+                    <input type="text" class="otp-input" minlength="1" maxlength="1" required>
+                    <input type="text" class="otp-input" minlength="1" maxlength="1" required>
+                </div>
+
+                <button class="btn otp-verify-button">Verify</button>
+            </div>
+
+            <div class="otp-success-form">
+                <div class="success-upper-section">
+                    <h1>Congratulations!!!</h1>
+                    <p>You are verified</p>
+                </div>
+
+                <button class="btn otp-back-button">Go Back</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <div id="project-2" class="hero-section">
+        <div class="content-container">
+            <span class="hero-project-number">Project 2 > </span>
+            <h1 class="hero-project-title">CRUD TODO APP</h1>
+        </div>
+
+        <div class="todo-container">
+            <div class="todo-add-container">
+                <input type="text" class="todo-add todo-input" placeholder="Add a todo" value="">
+                <button class="add-todo-button btn">Add Todo</button>
+            </div>
+
+            <div class="all-todo-container">
+                <!-- <div class="single-todo">
+                    <div class="todo-left-section">
+                        <input type="checkbox" class="todo-checkbox">
+                        <div class="todo">This is a todo creatd by Manish Bhurtel</div>
+                    </div>
+    
+                    <div class="todo-right-section">
+                        <button class="edit-todo-button btn">Edit</button>
+                        <button class="delete-todo-button btn">Delete</button>
+                    </div>
+                </div> -->
+            </div>
+
+            
+        </div>
+    </div>
+
+
+
+
+
+
+    <div id="project-3" class="hero-section">
+        <div class="content-container">
+            <span class="hero-project-number">Project 3 > </span>
+            <h1 class="hero-project-title">RANDOM QUOTE GENERATOR</h1>
+        </div>
+
+        <div class="quote-container">
+            <div class="quote-upper-section">
+                <input type="text" class="quote-keyword-input" placeholder="Enter a quote category!!">
+                <button class="btn generate-quote-button">Generate Quote</button>
+            </div>
+
+            <div class="quote-lower-section">
+                <div class="loader"></div>
+                <div class="quote"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div id="project-4" class="hero-section">
+        <div class="content-container">
+            <span class="hero-project-number">Project 4 > </span>
+            <h1 class="hero-project-title">QR CODE GENERATOR</h1>
+        </div>
+
+        <div class="qr-container">
+            <div class="qr-input-fields">
+                <input type="text" class="qr-name qr-input" placeholder="Enter your name">
+                <input type="email" class="qr-email qr-input" placeholder="Enter your email">
+                <input type="number" class="qr-phone qr-input" placeholder="Enter your number">
+    
+                <button class="generate-qr-button btn">Generate QR code</button>
+            </div>
+
+            <div class="qr-image-container">
+                <h1>QR Image</h1>
+                <div class="loader"></div>
+                <div class="qr-message"></div>
+                <img src="" class="qr-image">
+            </div>
+        </div>
+    </div>
+
+    <div id="project-5" class="hero-section">
+        <div class="content-container">
+            <span class="hero-project-number">Project 5 > </span>
+            <h1 class="hero-project-title">FAQs ACCORDIAN</h1>
+        </div>
+
+        <div class="accordian-container">
+            <div class="accordian">
+                <div class="accordian-title">What to do after learning JavaScript?<div class="accordian-icon">+</div></div> 
+                <div class="accordian-description">Well, first master the frontend. Don't just learn and move to any frameworks because if you become great at HTML, CSS & JavaScript then you are good to go. Learn React, Next.js and in backend learn Express.js. Then start doing freelancing. Don't forget to learn in public. It's really crucial.</div>
+            </div>
+            
+
+            <div class="accordian">
+                <div class="accordian-title">What is a tech question?<div class="accordian-icon">+</div></div> 
+                <div class="accordian-description">Technical questions in an interview are questions that are designed to assess your specific knowledge and skills related to the technical aspects of a job. </div>
+            </div>
+
+            <div class="accordian">
+                <div class="accordian-title">What are the possible questions in technology?<div class="accordian-icon">+</div></div> 
+                <div class="accordian-description">1) What is technology? ...<br />
+                    2) How has technology changed the daily lives of humans?<br />
+                    3) As technology continually changes and improves, how can we know what skills to learn?</div>
+            </div>
+
+            <div class="accordian">
+                <div class="accordian-title">What is a technical interview?<div class="accordian-icon">+</div></div> 
+                <div class="accordian-description">A technical interview is a job interview for any position that relates to the tech industry, such as information technology. Technical interviews may take place over the phone, online and in-person, and may range in time from one hour to full-day interviews.</div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
